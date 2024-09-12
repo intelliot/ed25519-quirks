@@ -61,6 +61,7 @@ const entries = {
   basics: './src/basics',
   malleability: './src/malleability',
   wildcards: './src/wildcards',
+  verification: './src/verification',
   clamping: './src/clamping',
 };
 const htmlPlugins = Object.keys(entries).map((entry) => new HtmlWebpackPlugin({
